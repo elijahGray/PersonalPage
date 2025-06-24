@@ -155,6 +155,10 @@
   backface-visibility: hidden;
 }
 
+.card-back > p {
+  font-size: clamp(0.75rem, 0.8vw, 1rem);
+}
+
 .swipe-card .card-front {
   top: 0;
   left: 0;
