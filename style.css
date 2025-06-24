@@ -80,15 +80,17 @@
       line-height: 1.2;
     }
 
-    .content-container {
-      border: 5px solid black;
-      border-radius: 20px;
-      padding: 3rem 2rem;
-      text-align: center;
-      margin: 40px auto;
-      max-width: 1800px;
-      box-shadow: 8px 8px 0 black;
-    }
+.content-container {
+  position: relative;
+  border: 5px solid black;
+  border-radius: 20px;
+  padding: 3rem 2rem;
+  text-align: center;
+  margin: 40px auto;
+  margin-top: 120px;
+  max-width: 1800px;
+  box-shadow: 8px 8px 0 black;
+}
 
     .section-of-content {
       position: relative;
