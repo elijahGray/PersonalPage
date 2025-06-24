@@ -156,7 +156,7 @@
 }
 
 .card-back > p {
-  font-size: clamp(0.75rem, 0.8vw, 1rem);
+  font-size: clamp(0.8rem, 0.9vw, 1.1rem);
 }
 
 .card-front > h3 {
@@ -203,4 +203,52 @@
 
 .min-col {
     min-width: 30vw;
+}
+
+form {
+  background-color: #faf1d9;
+  border-radius: 12px;
+  border: 2px solid black;
+  box-shadow: 4px 4px 0 black;
+  font-family: "Inconsolata", monospace;
+  font-size: 1.2rem;
+  padding: 2rem;
+  width: 100%;
+}
+
+input,
+textarea {
+  color: black;
+  background-color: transparent;
+  border: none;
+  border-bottom: 5px solid black;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+  width: 100%;
+  margin-bottom: 1rem;
+  font-family: "Inconsolata", monospace;
+  font-size: 1rem;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #444;
+}
+
+input:focus,
+textarea:focus {
+  border-bottom: 5px solid #3451d4;
+}
+
+.btn {
+  border: none;
+  border-bottom: 5px solid black;
+  border-radius: 0;
+  background-color: transparent;
+  font-family: "Inconsolata", monospace;
+}
+
+.btn:hover {
+  border-bottom-color: #3451d4;
 }
