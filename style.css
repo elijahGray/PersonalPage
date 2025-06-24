@@ -159,6 +159,10 @@
   font-size: clamp(0.75rem, 0.8vw, 1rem);
 }
 
+.card-front > h3 {
+  font-size: clamp(1.25rem, 1.4vw, 1.6rem);
+}
+
 .swipe-card .card-front {
   top: 0;
   left: 0;
@@ -195,4 +199,9 @@
 
 .swipe-card:hover .card-back {
   transform: translateY(0);
+}
+
+.min-col {
+    min-width: 200px;
+    flex: 1 1 100px;
 }
