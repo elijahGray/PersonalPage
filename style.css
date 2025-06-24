@@ -202,6 +202,5 @@
 }
 
 .min-col {
-    min-width: 250px;
-    flex: 1 1 100px;
+    min-width: 30vw;
 }
